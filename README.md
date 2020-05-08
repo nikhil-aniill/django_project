@@ -57,14 +57,14 @@ run manage.py migrate
 ```
 Since all this is already done and hosted on [Server](http://nikhilaniill.pythonanywhere.com).
 1. ### To add data
-   - Go to [Admin page](http://nikhilaniill.pythonanywhere.com/admin)
-   with 
-   Username:'Nikhil'
-   Password:'1234'
-   -Under MYAPI there are 3 Options :- 
-    - Members - To create real name and tz(time zone) 
-    - Periods - To mention the activity periods. 
-    - Main_classs - To link Members which has manytomany relation
+  - Go to [Admin page](http://nikhilaniill.pythonanywhere.com/admin)
+    with 
+    Username:'Nikhil'
+    Password:'1234'
+  - Under MYAPI there are 3 Options :- 
+      - Members - To create real name and tz(time zone) 
+      - Periods - To mention the activity periods. 
+      - Main_classs - To link Members which has manytomany relation
          > many-to-many relationship refers to a relationship between tables in a database when a parent row in one table contains several child rows in the second table, and vice versa.
 2. ### To see the db.json 
    - Go to [API Root](http://nikhilaniill.pythonanywhere.com/) and click on [Members](http://nikhilaniill.pythonanywhere.com/Members/)
