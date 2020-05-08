@@ -1,4 +1,4 @@
-# Django Project
+# FullThrottle Labs
 This project is made to replicate the db.json given below. The project is designed and implemented with Django API and Django Rest Framework, made production ready and hosted on PythonAnywhere.
 
 >{
