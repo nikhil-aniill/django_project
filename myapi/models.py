@@ -13,13 +13,6 @@ class Member(models.Model):
     def _str_(self):
         return self.real_name
 
-# class Period(models.Model):
-    #member = models.ForeignKey(Member, on_delete=models.CASCADE)
-   #start = models.DateTimeField(default=timezone.now)
-    #end = models.DateTimeField(blank=True, null=True)
-    #def publish(self):
-     #   self.end= timezone.now()
-      #  self.save()'''
 
 class Period(models.Model):
     member = models.ForeignKey(Member,related_name = 'period_def',  on_delete=models.CASCADE)
